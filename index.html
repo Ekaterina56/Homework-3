@@ -221,10 +221,70 @@
 
        document.write("После добавления: " + trees + "<br/>");
 
-       document.write("Размер массива: " + newLength);
+       document.write("Размер массива: " + newLength + "<br/>");
 
        document.write("---------------------------------------------------------------------------------------------"); 
 		document.write("<br/>");
+    </script>
+
+    <h3>Метод Pop</h3>
+
+     <script>
+
+        var flowers = ["Ромашка", "Одуванчик", "Роза", "Тюльпан"];
+
+        document.write("Цветы : " + flowers +"<br/>");
+
+        document.write("Размер массива : " + flowers.length + "<br/>");
+
+        var del=flowers.pop();
+
+        document.write("Оставшиеся цветы после удаления : " + flowers + "<br/>");
+
+        document.write("Размер массива : " + flowers.length + "<br/>");
+
+        document.write("Удаленные цветы : " + del + "<br/>");
+
+        document.write("---------------------------------------------------------------------------------------------"); 
+		document.write("<br/>");
+        </script>
+
+        <h3>Метод Unshift</h3>
+
+        <script>
+
+        var flowers = ["Ромашка", "Одуванчик", "Роза", "Тюльпан"];
+
+        document.write("Цветы : " + flowers +"<br/>");
+
+        var newLength = flowers.unshift("Пион");
+
+        document.write("Цветы после добавления : " + flowers + "<br/>");
+
+        document.write("Размер нового массива : " + newLength + "<br/>");
+
+         document.write("---------------------------------------------------------------------------------------------"); 
+		document.write("<br/>");
+
+    </script>
+
+    <h3>Метод Shift</h3>
+
+    <script>
+
+        var flowers = ["Ромашка", "Одуванчик", "Роза", "Тюльпан"];
+
+        document.write("Цветы : " + flowers +"<br/>");
+
+        var del = flowers.shift();
+
+        document.write("Цветы после удаления : " + flowers + "<br/>");
+
+        document.write("Удаленнй цветок : " + del  + "<br/>");
+
+        document.write("---------------------------------------------------------------------------------------------"); 
+		document.write("<br/>");
+
     </script>
 
 	
