@@ -5,6 +5,131 @@
 	<title>Homework3</title>
 </head>
 <body>
+	<h3>Метод Join</h3>
+
+	<script>
+		var scoolthings = ["Pen", "Pensil", "Book"];
+
+		document.write(scoolthings);
+
+        var changed_array = scoolthings.join(" * ");
+
+        document.write("<br/><br />");
+
+        document.write(changed_array);
+
+		 changed_array = scoolthings.join(" # ");
+
+		document.write("<br/><br />");
+
+        document.write(changed_array);
+
+		var changed_array=scoolthings.join(" ! ");
+
+		document.write("<br/><br />");
+
+		document.write(changed_array);
+
+        document.write("<br/><br />");
+
+	</script>
+
+	<script>
+
+        var things = ["Pen", "Pencil", "Book", "Copybook"];
+
+        document.write(things  + '<br/>')
+
+        document.write("<ul><li>");
+
+        var changed_array = things.join("</li><li>");
+
+        document.write(changed_array);
+
+        document.write("</ul>");
+
+        document.write("<ol><li>");
+
+        var changed_array = things.join("</li><li>");
+
+        document.write(changed_array);
+
+        document.write("</ol>");
+
+        document.write("<ul style=\"list-style-image:url(https://s.zimedia.com.tw/s/hUa8iE-5)\"><li>");
+
+        var changed_array = things.join("</li><li>");
+
+        document.write(changed_array);
+
+        document.write("</ul>");
+
+        document.write("------------------------------------");
+
+    </script>
+
+    <h3>Метод Contact</h3>
+
+    <script>
+
+        var trees = ["Осина",  "Тополь",  "Ива",  "Дуб"];
+        var flovers = ["Ромашка", "Роза", "Одуванчик"];
+
+        document.write( "Деревья : " +trees  + '<br/>');
+
+        document.write("<br/>");
+
+        document.write( "Цветы : "  + flovers  + '<br/>');
+
+        document.write("<br/>");
+
+		var plants = trees.concat(flovers);
+
+        document.write( "Растения : " + plants + '<br/>'); 
+
+        document.write("<br/>");
+
+        flovers = flovers.concat("Тюльпан", "Пион", "Гвоздика");
+
+        document.write( "Еще растения : " + flovers);
+
+        document.write("<br/>");
+
+        document.write("---------------------------------------------------------------------------------------------");  
+
+        document.write("<br/>");
+
+    </script>
+
+    <h3>Метод Reverse</h3>
+
+      <script>
+
+        var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        
+        document.write("Первый день недели : " + days[0] + '<br/>');
+
+        document.write("<br/>");
+
+        document.write(days + '<br/>');
+
+        document.write("<br/>");
+
+		days = days.reverse();
+
+		document.write("Первый день недели : " + days[0] + '<br/>');
+
+        document.write("<br/>");
+
+        document.write(days + '<br/>');
+
+         document.write("---------------------------------------------------------------------------------------------"); 
+
+         document.write("<br/>"); 
+
+    </script>
+
+
 	
 </body>
 </html>
