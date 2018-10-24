@@ -157,6 +157,39 @@
 
     </script>
 
+    <h3>Метод Splice</h3>
+
+     <script>
+
+        var colors = ["red", "green", "black", "blue", "grey", "pink", "white"];
+
+       document.write("Цвета: " + colors + "<br/>");
+
+       document.write("<br/>"); 
+
+       var del = colors.splice(2, 4); 
+
+        document.write("Удаленные цвета : " + del  + "<br/>");
+
+        document.write("<br/>"); 
+
+        document.write("Оставшиеся цвета : " + colors + "<br/>");
+
+        document.write("<br/>"); 
+
+        colors.splice(1, 0, "broun", "orange", "yellow");
+
+        document.write("Цвета после добавления : " + colors);
+
+        document.write("<br/>"); 
+
+        document.write("---------------------------------------------------------------------------------------------"); 
+
+        document.write("<br/>"); 
+
+    </script>
+
+
 
 
 
